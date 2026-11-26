@@ -1,0 +1,28 @@
+<!doctype html><html lang='ko'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>섹터 수익률 기록</title><style>
+:root{--bg:#fbfbfa;--fg:#1d1d1b;--muted:#6b6b66;--line:#e4e3de;--card:#fff;--up:#d0312d;--down:#1f5fbf;--accent:#3a5a40}
+@media (prefers-color-scheme:dark){:root{--bg:#161615;--fg:#ecebe6;--muted:#a3a29b;--line:#2e2d2a;--card:#1f1f1d;--up:#ff6b61;--down:#6fa3ff;--accent:#9cc5a1}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif}
+main{max-width:1000px;margin:0 auto;padding:20px 16px 48px}
+h1{font-size:22px;margin:0 0 4px}h2{font-size:17px;margin:32px 0 8px}
+.sub{color:var(--muted);font-size:13px}
+.note{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:16px 0}
+.wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums;white-space:nowrap}
+th,td{padding:7px 10px;text-align:right;border-bottom:1px solid var(--line)}
+th{font-size:12px;color:var(--muted);font-weight:600;background:var(--card);position:sticky;top:0}
+td.l,th.l{text-align:left}tr:last-child td{border-bottom:0}
+td.l:first-child,th.l:first-child{position:sticky;left:0;background:var(--card)}
+.up{color:var(--up)}.down{color:var(--down)}.tag{font-size:12px;padding:1px 6px;border-radius:6px;border:1px solid var(--line)}
+.sec td{background:color-mix(in srgb,var(--accent) 8%,var(--card));font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+footer{margin-top:32px;color:var(--muted);font-size:12px}
+ul.rep{margin:4px 0 0;padding-left:18px}ul.rep li{margin:2px 0}a{color:inherit}
+@media print{
+@page{size:A4 landscape;margin:9mm 11mm}
+:root{--bg:#fff;--fg:#1d1d1b;--muted:#6b6b66;--line:#e4e3de;--card:#fff;--up:#d0312d;--down:#1f5fbf}
+body{font-size:9.5pt;font-family:"Apple SD Gothic Neo","Noto Sans KR","Noto Sans CJK KR","WenQuanYi Zen Hei",sans-serif}
+main{max-width:none;padding:0}h1{font-size:16pt}h2{font-size:12pt;margin:14px 0 6px;break-after:avoid}
+th,td{padding:2px 6px}th{position:static}td.l:first-child,th.l:first-child{position:static}
+.wrap{overflow:visible;break-inside:auto}tr{break-inside:avoid}.grid{grid-template-columns:repeat(4,1fr);gap:8px}
+.pb{break-before:page}a{text-decoration:none}}
+</style></head><body><main><h1>지난 섹터 수익률</h1><ul><li><a href='2026-11-27.html'>2026-11-27</a> · <a href='2026-11-27.pdf'>PDF</a></li></ul><p><a href='../'>오늘</a></p></main></body></html>
